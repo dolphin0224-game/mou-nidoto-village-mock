@@ -1,5 +1,5 @@
 let phoneSignature='';
-function phoneAvatar(id){const img=document.createElement('img');img.className='avatar';img.src='PhoneAvatars/'+id+'.png';img.alt='';return img}
+function phoneAvatar(id){const img=document.createElement('img');img.className='avatar';img.src='PhoneAvatars/'+(id==='hina'?'hina-v149':id)+'.png';img.alt='';return img}
 function phoneGroupAvatar(){const box=document.createElement('span');box.className='group-avatar';for(const id of ['hina','ryo','shiori','ren'])box.append(phoneAvatar(id));return box}
 function phoneElement(tag,cls,text){const e=document.createElement(tag);e.className=cls||'';if(text!==undefined)e.textContent=text;return e}
 function renderPhone(d){const signature=JSON.stringify([d.phoneView,d.phoneThread,d.phoneThreads,d.phoneMessages,d.phoneMembers]);if(signature===phoneSignature)return;phoneSignature=signature;
