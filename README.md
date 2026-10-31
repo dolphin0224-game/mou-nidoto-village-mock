@@ -1,10 +1,10 @@
 # もう二度と 村探索モック
-共同確認用・陽菜の目のちらつき修正版（2026年10月30日）。
-https://dolphin0224-game.github.io/mou-nidoto-village-mock/?review=eyes&v=eye-fix-20261030
+共同確認用・陽菜の目のちらつき修正版（2026年10月31日）。
+https://dolphin0224-game.github.io/mou-nidoto-village-mock/?review=eyes&v=eye-depth-20261031
 
-陽菜v149の顔本体を片面描画に変更し、瞳の表面と裏面の奥行き競合を修正。
-まぶた専用材質は従来の設定を保持。形状・表情・Timeline・背景ぼかしは変更していません。
-上のURLは約14秒の接近カットから開始します。通常URLの「はじめから」でも確認できます。
+前回の裏面除外に加え、カメラの深度精度を調整。引きのカットで瞳に白目が割り込む問題に対応。
+モデル形状・表情・Timelineの構図と尺・背景ぼかしを維持。
+上のURLは約14秒の接近カットから開始します。review=eyes-wideでは約90秒の引きのカットから確認できます。
 
 PCの新しいChrome/Edgeを使用。初回ダウンロードは約900MB。ログイン不要。
 WASD移動、マウスドラッグで視点、E調べる、M地図、Pスマホ、Enter/Space会話。
